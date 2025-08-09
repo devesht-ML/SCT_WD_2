@@ -18,14 +18,14 @@ iv)-A visually appealing, responsive design that works on all devices.
 
 # Project Structure
 
-Stopwatch/
-└── SCT_WD_2/
-    ├── index.html          # Main HTML structure
-    ├── style.css           # Stylesheet for layout, theme, and animations
-    ├── script.js           # Stopwatch logic and event handling
-    ├── assets/             # Static resources
-    │   └── preview/        # Screenshots, demo videos, or previews
-    └── README.md           # Project documentation
+       Stopwatch/
+          └── SCT_WD_2/
+             ├── index.html          # Main HTML structure
+             ├── style.css           # Stylesheet for layout, theme, and animations
+             ├── script.js           # Stopwatch logic and event handling
+             ├── assets/             # Static resources
+             │     └── preview/        # Screenshots, demo videos, or previews
+             └── README.md           # Project documentation
 
 # Features
 i)-Start / Pause / Resume – Full control over the stopwatch.
@@ -44,14 +44,17 @@ vii)-Elegant Buttons – Gradient styling, icons + labels, and smooth hover effe
 
 # Technologies Used
 -> HTML5 – Semantic structure and layout.
+
 -> CSS3 – Styling, gradients, responsiveness, and hover animations.
+
 -> JavaScript (Vanilla) – Core stopwatch logic and DOM manipulation.
+
 -> Font Awesome – For crisp, scalable icons.
 
 
 # Preview
 
-[!Preview Image](SCT_WD_2/assets/Preview.png)
+![Preview Image](SCT_WD_2/assets/Preview.png)
 
 # Contribution Guidelines
 We welcome contributions to enhance this project. To contribute:
