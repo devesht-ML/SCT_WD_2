@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Precision Stopwatch</h1>
+            <p>Track your time with accuracy</p>
+        </header>
+        
+        <div class="timer-display">
+            <div class="main-timer">00:00:00.00</div>
+            <div class="lap-count" id="lapCount">Laps: 0</div>
+        </div>
+        
+        
+        <div class="controls">
+            <button class="btn start-btn" id="startBtn">
+                <i class="fas fa-play"></i> <span>Start</span>
+            </button>
+            <button class="btn pause-btn" id="pauseBtn" disabled>
+                <i class="fas fa-pause"></i> <span>Pause</span>
+            </button>
+            <button class="btn lap-btn" id="lapBtn" disabled>
+                <i class="fas fa-flag"></i> <span>Lap</span>
+            </button>
+            <button class="btn reset-btn" id="resetBtn" disabled>
+                <i class="fas fa-redo"></i> <span>Reset</span>
+            </button>
+        </div>
+        
+        
+        <div class="lap-history">
+            <h3><i class="fas fa-history"></i> Lap History</h3>
+            <ul class="lap-list" id="lapList">
+                <!-- Lap items will be added here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
