@@ -54,7 +54,7 @@ vii)-Elegant Buttons – Gradient styling, icons + labels, and smooth hover effe
 
 # Preview
 
-![Preview Image](SCT_WD_2/assets/Preview.png)
+![Preview Image](assets/Preview.png)
 
 # Contribution Guidelines
 We welcome contributions to enhance this project. To contribute:
